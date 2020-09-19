@@ -1,0 +1,101 @@
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$ cd ..
+
+Admin@Admin MINGW64 /c/Users/admin/desktop
+$ cd /c/Users/Admin/desktop/ex/
+
+Admin@Admin MINGW64 ~/desktop/ex
+$ cd ..
+
+Admin@Admin MINGW64 ~/desktop
+$ cd ex/
+
+Admin@Admin MINGW64 ~/desktop/ex
+$ cd /c/Users/admin/Documents/
+
+Admin@Admin MINGW64 /c/Users/admin/Documents
+$ cd /c/Users/admin/desktop/ex/
+
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$ pwd
+/c/Users/admin/desktop/ex
+
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$ ls -a
+./  ../  ex1/
+
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$ cd ../../../..
+
+Admin@Admin MINGW64 /c
+$ cd -
+/c/Users/admin/desktop/ex
+
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$ cd ../another_folder/
+bash: cd: ../another_folder/: No such file or directory
+
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$ cd -
+/c
+
+Admin@Admin MINGW64 /c
+$ cp example.txt example2.txt
+cp: cannot stat 'example.txt': No such file or directory
+
+Admin@Admin MINGW64 /c
+$ cp desktop.txt desktop2.txt
+cp: cannot stat 'desktop.txt': No such file or directory
+
+Admin@Admin MINGW64 /c
+$ ls
+'$RECYCLE.BIN'/                    MSOCache/
+'$WINRE_BACKUP_PARTITION.MARKER'   pagefile.sys
+ Active/                           PerfLogs/
+ Boot/                            'Program Files'/
+ bootmgr                          'Program Files (x86)'/
+ BOOTNXT                           ProgramData/
+ BOOTSECT.BAK                      Recovery/
+ Config.Msi/                       swapfile.sys
+'Documents and Settings'@         'System Volume Information'/
+ hiberfil.sys                      Users/
+ Intel/                            Windows/
+ msdia80.dll*
+
+Admin@Admin MINGW64 /c
+$ cp desktop.txt ../another_folder/example.txt
+cp: cannot stat 'desktop.txt': No such file or directory
+
+Admin@Admin MINGW64 /c
+$ cd ../another_folder/
+bash: cd: ../another_folder/: No such file or directory
+
+Admin@Admin MINGW64 /c
+$ ls
+'$RECYCLE.BIN'/                    MSOCache/
+'$WINRE_BACKUP_PARTITION.MARKER'   pagefile.sys
+ Active/                           PerfLogs/
+ Boot/                            'Program Files'/
+ bootmgr                          'Program Files (x86)'/
+ BOOTNXT                           ProgramData/
+ BOOTSECT.BAK                      Recovery/
+ Config.Msi/                       swapfile.sys
+'Documents and Settings'@         'System Volume Information'/
+ hiberfil.sys                      Users/
+ Intel/                            Windows/
+ msdia80.dll*
+
+Admin@Admin MINGW64 /c
+$ cd -
+/c/Users/admin/desktop/ex
+
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$ mv desktop.txt desktop3.txt
+mv: cannot stat 'desktop.txt': No such file or directory
+
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$ ls
+ex1/
+
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$

@@ -1,0 +1,17 @@
+Admin@Admin MINGW64 ~/Desktop/ex/ex1
+$ mkdir created_folder
+
+Admin@Admin MINGW64 ~/Desktop/ex/ex1
+$ ls
+created_folder/  tools/
+
+Admin@Admin MINGW64 ~/Desktop/ex/ex1
+$ cd textfile
+bash: cd: textfile: No such file or directory
+
+Admin@Admin MINGW64 ~/Desktop/ex/ex1
+$ gedit
+bash: gedit: command not found
+
+Admin@Admin MINGW64 ~/Desktop/ex/ex1
+$ nano

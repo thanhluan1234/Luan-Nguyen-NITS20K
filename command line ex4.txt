@@ -1,0 +1,104 @@
+Admin@Admin MINGW64 ~/Desktop/ex/ex1
+$ touch example.txt
+
+Admin@Admin MINGW64 ~/Desktop/ex/ex1
+$ ls
+created_folder/  example.txt  tools/
+
+Admin@Admin MINGW64 ~/Desktop/ex/ex1
+$ nano example.txt
+
+Admin@Admin MINGW64 ~/Desktop/ex/ex1
+$ nano example.txt
+
+Admin@Admin MINGW64 ~/Desktop/ex/ex1
+$ nano example.txt
+
+Admin@Admin MINGW64 ~/Desktop/ex/ex1
+$ cd ..
+
+Admin@Admin MINGW64 ~/Desktop/ex
+$ cd tools/
+bash: cd: tools/: No such file or directory
+
+Admin@Admin MINGW64 ~/Desktop/ex
+$ cd ..
+
+Admin@Admin MINGW64 ~/Desktop
+$ cd ex/
+
+Admin@Admin MINGW64 ~/Desktop/ex
+$ cd ..
+
+Admin@Admin MINGW64 ~/Desktop
+$ cd ~/desktop/ex/
+
+Admin@Admin MINGW64 ~/desktop/ex
+$ cd ..
+
+Admin@Admin MINGW64 ~/desktop
+$ cd ..
+
+Admin@Admin MINGW64 ~
+$ cd ..
+
+Admin@Admin MINGW64 /c/Users
+$ cd ..
+
+Admin@Admin MINGW64 /c
+$ cd Users/Admin/desktop/ex/
+
+Admin@Admin MINGW64 ~/desktop/ex
+$ cd ..
+
+Admin@Admin MINGW64 ~/desktop
+$ cd c/Users/Admin/desktop/ex/
+bash: cd: c/Users/Admin/desktop/ex/: No such file or directory
+
+Admin@Admin MINGW64 ~/desktop
+$ cd /c/Users/admin/desktop/ex/
+
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$ cd ..
+
+Admin@Admin MINGW64 /c/Users/admin/desktop
+$ cd /c/Users/Admin/desktop/ex/
+
+Admin@Admin MINGW64 ~/desktop/ex
+$ cd ..
+
+Admin@Admin MINGW64 ~/desktop
+$ cd ex/
+
+Admin@Admin MINGW64 ~/desktop/ex
+$ cd /c/Users/admin/Documents/
+
+Admin@Admin MINGW64 /c/Users/admin/Documents
+$ cd /c/Users/admin/desktop/ex/
+
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$ pwd
+/c/Users/admin/desktop/ex
+
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$ ls -a
+./  ../  ex1/
+
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$ cd ../../../..
+
+Admin@Admin MINGW64 /c
+$ cd -
+/c/Users/admin/desktop/ex
+
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$ cd ../another_folder/
+bash: cd: ../another_folder/: No such file or directory
+
+Admin@Admin MINGW64 /c/Users/admin/desktop/ex
+$ cd -
+/c
+
+Admin@Admin MINGW64 /c
+$
+
