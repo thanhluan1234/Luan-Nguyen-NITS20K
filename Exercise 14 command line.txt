@@ -1,0 +1,9 @@
+In Bash, the command echo "the word you want to print" use to print text in Bash
+For example
+nano script.sh
+(in nano: #!/bin/bash
+echo "Hello word!" )
+chmod u+x script.sh
+./script.sh 
+=> result is Hello word! 
+The reason why the first programming exercises usually involve printing “Hello world!” because it can be created in almost language and output variations on the display, making it some of the most basic syntax involved in the coding process

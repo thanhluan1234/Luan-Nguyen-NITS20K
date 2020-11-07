@@ -1,0 +1,35 @@
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/ex9 (master)
+$ touch exercise9.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/ex9 (master)
+$ nano exercise9.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/ex9 (master)
+$ grep -i "U" exercise9.txt
+Unix
+Linux
+UNiX
+unique-unix
+unIX
+Operating system unix
+UNIX
+unix
+unisport
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/ex9 (master)
+$ grep "U" exercise9.txt
+Unix
+UNiX
+UNIX
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/ex9 (master)
+$ grep "u" exercise9.txt
+Linux
+unique-unix
+unIX
+Operating system unix
+unix
+unisport
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/ex9 (master)
+$ grep -w "U" exercise9.txt

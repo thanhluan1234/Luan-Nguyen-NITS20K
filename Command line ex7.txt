@@ -1,0 +1,12 @@
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/ex7 (master)
+$ cd ex7
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/ex7 (master)
+$ ls
+school/
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line (master)
+$ rm -rf school
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/ex7 (master)
+$ ls

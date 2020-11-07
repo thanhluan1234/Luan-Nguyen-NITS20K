@@ -1,0 +1,31 @@
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line (master)
+$ mkdir pictures
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line (master)
+$ cd pictures/
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures(master)
+$ touch i_am_a_file.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures (master)
+$ touch i_am_not_a_picture.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures (master)
+$ ls
+github.png  github-mark.jpg  i_am_a_file.txt  i_am_not_a_picture.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures (master)
+$ mkdir pictures
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures (master)
+$ cp *.png pictures/
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures (master)
+$ cp *.jpg pictures/
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures (master)
+$ cd pictures/
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures/pictures (master)
+$ ls
+github.png  github-mark.jpg

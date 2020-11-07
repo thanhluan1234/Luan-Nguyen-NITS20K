@@ -1,0 +1,16 @@
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/ex10 (master)
+$ touch notes.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/ex10 (master)
+$ nano notes.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/ex10 (master)
+$ ls | grep "cafeteria" notes.txt > cafeteria.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/ex10 (master)
+$ ls | grep "intro to cs" notes.txt > intro.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/ex10 (master)
+$ ls
+cafeteria.txt  intro.txt  notes.txt
+
