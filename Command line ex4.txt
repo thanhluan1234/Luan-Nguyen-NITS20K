@@ -1,0 +1,49 @@
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/exercise3 (master)
+$ git add -p shopping_list.txt
+warning: LF will be replaced by CRLF in shopping_list.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in shopping_list.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in shopping_list.txt.
+The file will have its original line endings in your working directory
+diff --git a/shopping_list.txt b/shopping_list.txt
+index 8a3651c..29fb65d 100644
+--- a/shopping_list.txt
++++ b/shopping_list.txt
+@@ -1 +1,2 @@
+ cloths and foods
++learning tools
+(1/1) Stage this hunk [y,n,q,a,d,e,?]? y
+
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/exercise3 (master)
+$ echo "computer, phone and house equipments" >> shopping_list.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/exercise3 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   shopping_list.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   shopping_list.txt
+        modified:   story.txt
+
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/exercise3 (master)
+$ git checkout -- shopping_list.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/exercise3 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   shopping_list.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   story.txt

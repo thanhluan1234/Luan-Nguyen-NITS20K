@@ -1,31 +1,52 @@
-ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line (master)
-$ mkdir pictures
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/git/ex8 (master)
+$ touch tools.txt
 
-ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line (master)
-$ cd pictures/
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/git/ex8 (master)
+$ git add tools.txt
 
-ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures(master)
-$ touch i_am_a_file.txt
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/git/ex8 (master)
+$ git commit -m "adding tools file"
+[master (root-commit) c27d56b] adding tools file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 tools.txt
 
-ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures (master)
-$ touch i_am_not_a_picture.txt
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/git/ex8 (master)
+$ git remote add origin https://github.com/MinhHoang188/Version-control-Exercise-8-Fetching-code-from-GitHub.git
 
-ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures (master)
-$ ls
-github.png  github-mark.jpg  i_am_a_file.txt  i_am_not_a_picture.txt
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/git/ex8 (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 216 bytes | 72.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MinhHoang188/Version-control-Exercise-8-Fetching-code-from-GitHub.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
 
-ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures (master)
-$ mkdir pictures
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/git/ex8 (master)
+$ git fetch
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 644 bytes | 26.00 KiB/s, done.
+From https://github.com/MinhHoang188/Version-control-Exercise-8-Fetching-code-from-GitHub
+   c27d56b..3dde275  master     -> origin/master
 
-ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures (master)
-$ cp *.png pictures/
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/git/ex8 (master)
+$ git status
+On branch master
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
 
-ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures (master)
-$ cp *.jpg pictures/
+nothing to commit, working tree clean
 
-ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures (master)
-$ cd pictures/
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/git/ex8 (master)
+$ git pull
+Updating c27d56b..3dde275
+Fast-forward
+ tools.txt | 1 +
+ 1 file changed, 1 insertion(+)
 
-ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/command line/pictures/pictures (master)
-$ ls
-github.png  github-mark.jpg
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/git/ex8 (master)
+$ cat tools.txt
+this is tools file

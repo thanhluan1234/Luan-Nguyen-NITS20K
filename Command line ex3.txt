@@ -1,0 +1,123 @@
+ACER@LAPTOP-LDKP4EBB MINGW64 ~ (master)
+$ cd Desktop/MH
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH (master)
+$ mkdir exercise3
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH (master)
+$ git add exercise3/
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH (master)
+$ cd exercise3/
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ git init
+Initialized empty Git repository in C:/Users/ACER/Desktop/MH/exercise3/.git/
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ touch story.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ git add story.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ echo "This is m story" >> story.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ git commit -m "adding story"
+[master (root-commit) e9fa993] adding story
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 story.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ touch shopping_list.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ git add shopping_list.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ echo "cloths and foods" >> shopping_list.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ git commit -m "adding shopping list"
+[master 6ed15fd] adding shopping list
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 shopping_list.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ git log
+commit 6ed15fd3ef455b63cf6c9c4ceba28fb603e841ce (HEAD -> master)
+Author: MinhHoang <minh.hoang@centria.fi>
+Date:   Thu Sep 17 15:54:14 2020 +0700
+
+    adding shopping list
+
+commit e9fa99353e1f7b49033d5395e8f42a78184dcfdb
+Author: MinhHoang <minh.hoang@centria.fi>
+Date:   Thu Sep 17 15:53:30 2020 +0700
+
+    adding story
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ mkdir school
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ git add school
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ cd school
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3/school (master)
+$ touch tools.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3/school (master)
+$ git add tools.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3/school (master)
+$ cd ../
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3/school (master)
+$ git commit -m "adding school folder"
+[master (root-commit) 35dc298] adding school folder
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 tools.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ git add -p shopping_list.txt
+warning: LF will be replaced by CRLF in shopping_list.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in shopping_list.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in shopping_list.txt.
+The file will have its original line endings in your working directory
+diff --git a/shopping_list.txt b/shopping_list.txt
+index e69de29..8a3651c 100644
+--- a/shopping_list.txt
++++ b/shopping_list.txt
+@@ -0,0 +1 @@
++cloths and foods
+(1/1) Stage this hunk [y,n,q,a,d,e,?]? y
+
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ echo "learning tools" >> shopping_list.txt
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/exercise3 (master)
+$ git commit -m "adding new shopping list"
+[master 2b87a84] adding new shopping list
+ 1 file changed, 1 insertion(+)
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/ex3 (master)
+$ git remote add origin https://github.com/MinhHoang188/Version-control-Exercise-3-Practising-working-with-commits.git
+
+ACER@LAPTOP-LDKP4EBB MINGW64 ~/Desktop/MH/ex3 (master)
+$ git push -u origin master
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (11/11), 1.03 KiB | 211.00 KiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MinhHoang188/Version-control-Exercise-3-Practising-working-with-commits.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
